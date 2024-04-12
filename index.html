@@ -33,7 +33,6 @@
         }
     
         p span {
-            display: block;
             background: #afafaf;
             padding: 5px 10px;
             margin: 5px 0 0px 30px;
@@ -41,7 +40,8 @@
             border: 1px solid #9b9b9b;
             display: flex;
             justify-content: space-between;
-        }
+            flex-direction: column;
+        }        
         .actual{
             background: red;
         }
@@ -55,6 +55,16 @@
         }
         a:hover{
             color:#5625f9;
+        }
+
+        .wr_info {
+            display: flex;
+            flex-direction: column;
+            background: #000000;
+            color: white;
+            /* border: 1px solid #037903; */
+            font-size: 12px;
+            font-weight: normal;
         }
     </style>
 </head>
@@ -70,11 +80,15 @@
         <p>01. Создаем первое приложение на React, изучаем структуру проекта, знакомимся с JSX, компонентами
             <span class="hecho">
                 <a href="https://youtu.be/3oqpPfGg5MI" target="_blank">1.1 - React.js. Создание первого приложения, структура react приложения, основы JSX, оформление CSS</a>
-                <b>hecho</b>
+                <span class="wr_info">
+                    <b>hecho en casa</b>
+                </span>
             </span>
             <span class="hecho">
                 <a href="https://youtu.be/PodekPIQ2ec" target="_blank">1.2 - ReactJS. Создаем app, разбираем структуру, работаем с CSS. Основы JSX</a>
-                <b>hecho</b>
+                <span class="wr_info">
+                    <b>hecho en casa</b>
+                </span>
             </span>
         </p>
 
@@ -82,11 +96,18 @@
             <span class="hecho">
                 <a href="https://youtu.be/abLz-blwlZQ" target="_blank">2.1 - Компоненты React. Написание, композиция,
                     оформление компонентов на примере сайта</a>
-                <b>hecho (React site Socrat)</b>
+                <span class="wr_info">
+                    <b>hecho en work 12/04/2024</b>
+                    <b>(React site Socrat)</b>
+                    <b>repo: itgid_reactjs_unit_02_1</b>
+                </span>
             </span>
             <span class="hecho">
                 <a href="https://youtu.be/3Zi26JltRMM" target="_blank">2.2 - Компоненты React. Props</a>
-                <b>hecho</b>
+                <span class="wr_info">
+                    <b>hecho en work 11/04/2024</b>
+                    <b>repo: itgid_reactjs_unit_02_2_props</b>
+                </span>
             </span>
         </p>
 
